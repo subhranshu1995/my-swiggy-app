@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { useCart } from "./context/CartContext";
+import { useCart } from "../context/CartContext";
 
 export default function Cart() {
     const { state, dispatch } = useCart();

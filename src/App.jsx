@@ -4,13 +4,12 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import RestaurantPage from "./pages/RestaurantPage";
 import Cart from "./pages/Cart";
-import ToastContainer from "./components/ToastContainer";
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <ToastContainer />
+      <Home />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/restaurant/:id" element={<RestaurantPage />} />
