@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useCart } from "../context/CartContext";
+import { useCart } from "./context/CartContext";
 
 export default function Navbar() {
     const { state } = useCart(); // guaranteed by provider in main.jsx
